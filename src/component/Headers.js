@@ -1,19 +1,20 @@
 import React from 'react';
+import style from './Headers.module.css';
 
 function Headers() {
   return (
     <header>
-      <nev className='main-nav'>
-        <div className='header-name'>
+      <nav className={style.main}>
+        <div className={style.header}>
             <h1>Netflix</h1>
         </div>
-        <div className='language-name'>
+        <div className={style.language}>
             <button>English</button>
         </div>
-        <div className='user-sign-in'>
+        <div className={style.user}>
             <button>Sign In</button>
         </div>
-      </nev>
+      </nav>
     </header>
   );
 }
