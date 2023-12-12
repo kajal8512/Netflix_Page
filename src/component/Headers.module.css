@@ -21,13 +21,18 @@
 }
 
 .language{
-    width: 5rem;
-    height: 2rem;
-    border-radius: 5px;
-    background-color: #fff;
-    margin-left: 60%;
-    cursor: pointer;
-    transition: all 0.3s ease-in-out;
+    width: 8rem;
+  height: 4rem;
+  border-radius: 5px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Center the text horizontally */
+  color: #ff5733; /* Change text color to a specific color (you can use your preferred color code) */
+  font-size: 1.2rem; /* Adjust font size as needed */
+  margin-left: 60%;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
 }
 
 .language:hover{
