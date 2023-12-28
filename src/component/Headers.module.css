@@ -1,10 +1,24 @@
+.container{
+    background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/b4c7f092-0488-48b7-854d-ca055a84fb4f/5b22968d-b94f-44ec-bea3-45dcf457f29e/IN-en-20231204-popsignuptwoweeks-perspective_alpha_website_medium.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    overflow-x: hidden;
+    width: 100wh;
+    height: 100vh;
+}
+
+  
 .main{
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0 1rem;
     height: 10vh;
-    background-color: #fff;
     margin-left: 10%;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
     position: sticky;
@@ -20,34 +34,99 @@
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
-.language{
+.lang_name{
     width: 8rem;
-  height: 4rem;
-  border-radius: 5px;
-  background-color: #fff;
-  display: flex;
-  align-items: center;
-  justify-content: center; /* Center the text horizontally */
-  color: #ff5733; /* Change text color to a specific color (you can use your preferred color code) */
-  font-size: 1.2rem; /* Adjust font size as needed */
-  margin-left: 60%;
-  cursor: pointer;
-  transition: all 0.3s ease-in-out;
-}
+    height: 2rem;
+    margin-left: 45%;
+    color: #fffcfc;
+    font-size: 1.2rem;
+    /* border-color: rgb(194, 194, 194); */
+    background-color: #00000000;
+    border-radius: 0.3rem;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
 
-.language:hover{
-    background-color: #f1f1f1;
 }
 
 .user{
-    /* display: flex;
-    align-items: center;
-    justify-content: center; */
-    width: 5rem;
+    width: 5.5rem;
     height: 2rem;
+    font-size: 1rem;
     border-radius: 5px;
-    background-color: #fff;
-    margin-right: 10%;
+    margin-right: 20%;
+    color: #fff0f0;
+    border-color: none;
+    background-color: #e50914;
     cursor: pointer;
     transition: all 0.3s ease-in-out;
+}
+
+.heading{
+    font-size: 3rem;
+    font-weight: 700;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;;
+    color: #fffcfd;
+    font-weight: bold;
+    margin-top: 10%;
+    margin-left: 15%;
+    margin-right: 15%;
+    text-align: center;
+    overflow: hidden;
+    /* background-color: black; */
+}
+.heading4{
+    font-size: 1.5rem;
+    color: #f1e7e9;
+    margin-top: 2%;
+    margin-left: 15%;
+    margin-right: 15%;
+    text-align: center;
+}
+
+.heading5{
+    font-size: 1rem;
+    color: #f1e7e9;
+    margin-top: 2%;
+    margin-left: 15%;
+    margin-right: 15%;
+    text-align: center;
+}
+
+.subContainer{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.input{
+    width: 23%;
+    height: 3rem;
+    margin-left: 30%;
+    margin-top: 2%;
+    border-radius: 0.3rem;
+    border-color: rgb(233, 231, 231);
+    background-color: #cecbcb00;
+    color: #f8f8f8;
+    font-size: 1.5rem;
+    padding-left: 1rem;
+    transition: all 0.3s ease-in-out;
+}
+
+.input::placeholder {
+    color: #eee9e9;
+    align-items: center;
+}
+
+.buttonStart{
+    width: 10%;
+    height: 3rem;
+    margin-left: 1%;
+    margin-top: 2%;
+    border-radius: 0.3rem;
+    border-color: rgb(233, 231, 231);
+    background-color: #e50914;
+    color: #f8f8f8;
+    font-size: 1.5rem;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
 }
