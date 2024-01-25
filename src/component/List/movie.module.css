@@ -1,0 +1,32 @@
+
+.mainContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+  }
+  
+  .movieItem {
+    text-align: center;
+  }
+  
+  .image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .title {
+    margin: 0.5rem 0;
+  }
+  
+  .rating {
+    font-weight: bold;
+    color: #ff9800; /* Adjust color as needed */
+  }
+  
+  .releaseDate {
+    color: #888;
+  }
+  
