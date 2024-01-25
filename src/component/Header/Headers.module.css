@@ -1,0 +1,64 @@
+ .container{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 1;
+    overflow-x: hidden;
+    width: 60wh;
+    height: 20vh;
+}
+
+  
+.main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+    width: 100%;
+    height: 13vh;
+    box-shadow: 0 0 10px rgb(247, 248, 248);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color: black;
+}
+
+.header{
+    font-family: 'Your Custom Font', sans-serif;
+    font-size: 2rem;
+    font-weight: 600;
+    color: #e50914;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    margin-left: 13%;
+}
+
+
+.lang_name{
+    width: 8rem;
+    height: 2rem;
+    margin-left: 42%;
+    color: #fffbfb;
+    font-size: 1rem;
+    text-align: center;
+    border-color: rgb(245, 235, 235);
+    background-color: #00000000;
+    border-radius: 0.3rem;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+
+}
+
+.user{
+    width: 5.5rem;
+    height: 2rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    margin-right: 14%;
+    color: #fff0f0;
+    border-color: rgb(245, 235, 235);
+    background-color: #e50914;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
