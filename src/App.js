@@ -1,13 +1,28 @@
-import './App.css';
-import React from 'react';
-import  Headers from './component/Headers';
-
-function App() {    
-    return (
-        <>
-        <Headers/>
-        </>
-    );
-    }
+import "./App.css";
+import React from "react";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import MovieDataComponent from "./Component/List/Movie";
+import Headers from "./Component/Header/Headers.js";
+import Login from "./Component/Login/LoginPage.js";
+import Home from "./Component/Home.jsx";
+function App() {
+  const router = createBrowserRouter([
+    {
+      path: "/",
+      element: <Headers />,
+      children: [
+        {
+          path: "/login",
+          element: <Login />,
+        },
+        {
+          path: "/movie",
+          element: <Home />,
+        },
+      ],
+    },
+  ]);
+  return <RouterProvider router={router} />;
+}
 
 export default App;

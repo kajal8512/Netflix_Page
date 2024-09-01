@@ -1,22 +1,44 @@
-// MovieDataComponent.jsx
-
-import React, { useEffect, useState } from "react";
-import style from "./movie.module.css";
+import { useEffect, useState } from "react";
+import style from "./Movie.module.css";
 
 function MovieDataComponent() {
   const [movieList, setMovieList] = useState([]);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState(null);
 
-  const getMovieData = () => {
-    fetch(
-      "https://api.themoviedb.org/3/discover/movie?api_key=f94f39d28c41dbd8e27e717263c216d8"
-    )
-      .then((res) => res.json())
-      .then((data) => setMovieList(data.results));
+  const url =
+    "https://api.themoviedb.org/3/discover/movie?api_key=f94f39d28c41dbd8e27e717263c216d8";
+
+  const getMovieData = async () => {
+    try {
+      const res = await fetch(url);
+      const getData = await res.json();
+      console.log(getData);
+      setMovieList(getData.results);
+      setLoading(false);
+    } catch (error) {
+      console.log(error);
+      setError(error);
+      setLoading(false);
+    }
   };
 
   useEffect(() => {
     getMovieData();
   }, []);
+
+  if (loading)
+    return (
+      <div>
+        <h1>Loading....</h1>
+      </div>
+    );
+  if (error)
+    return (
+      <div>
+        <h1>Error: {error.message} </h1>
+      </div>
+    );
 
   return (
     <div className={style.mainContainer}>

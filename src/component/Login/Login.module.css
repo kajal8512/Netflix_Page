@@ -1,0 +1,69 @@
+.login{
+    width: 26%;
+    height: 55vh;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* background-color: rgb(39, 38, 38); */
+    background-image: linear-gradient(to bottom, rgba(138, 137, 137, 0.7), rgba(119, 90, 90, 0.7));
+    margin-left: 40%;
+    margin-top: 15%;
+}  
+
+.textWhite{
+    color: white;
+    font-size: 2.5rem;
+    margin-top: 3rem;
+    font-weight: 100;
+    margin-left: 3rem;
+}
+
+.formData{
+    width: 280px;
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    /* margin-top: 15px; */
+    margin-left: 3rem;
+    gap:0.6rem;
+}
+
+.email{
+    height: 2rem;
+}
+
+.password{
+    height: 2rem;
+}
+
+.buttonName{
+    height: 2rem;
+    background-color: #ca3b47;
+}
+
+.checkboxText{
+    color: white;
+    font-size: 0.8rem;
+    margin-top: 1rem;
+    margin-left: 0.4rem;
+    margin-bottom: 1rem;
+}
+
+.subContainer2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap:0.5rem;
+    margin-top: 3rem;
+}
+
+.textWord{
+    color: rgb(110, 109, 109);
+    font-size: 0.8rem;
+    margin-left: 3rem;
+}
+
+.signup{
+    color: white;
+    font-size: 0.8rem;
+}

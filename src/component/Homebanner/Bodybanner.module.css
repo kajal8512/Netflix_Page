@@ -1,0 +1,94 @@
+.container {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* height: 68vh;
+    width: 100%; */
+    overflow-x: hidden;
+}
+
+/* .heading {
+    font-size: 3rem;
+    font-weight: 700;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    color: #f7eef1;
+    font-weight: bold;
+    margin: 4% 15%;
+    text-align: center;
+} */
+
+/* .heading4 {
+    font-size: 1.5rem;
+    color: #e7dde0;
+    margin: 2% 15%;
+    text-align: center;
+} */
+
+/* .heading5 {
+    font-size: 1rem;
+    color: #dae4e7;
+    margin: 2% 15%;
+    text-align: center;
+} */
+
+.subContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input {
+    width: 23%;
+    height: 3rem;
+    /* margin-left: 1%; */
+    border-radius: 0.3rem;
+    border-color: rgb(247, 234, 234);
+    background-color: #cecbcb00;
+    color: #ece7e7;
+    font-size: 1.5rem;
+    padding-left: 1rem;
+    transition: all 0.3s ease-in-out;
+}
+
+.input::placeholder {
+    color: #f8eeee;
+}
+
+.buttonStart {
+    width: 10%;
+    height: 3rem;
+    margin-left: 1%;
+    border-radius: 0.3rem;
+    border-color: rgb(155, 25, 25);
+    background-color: #e2030f;
+    color: #f3f3f3;
+    font-size: 1.5rem;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.mainContainer {
+    margin: 5% auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.movieItem {
+    text-align: center;
+    margin: 1%;
+    width: 20%;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    background-color: #f5f5f5;
+}
+
+.image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
