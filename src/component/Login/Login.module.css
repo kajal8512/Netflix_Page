@@ -3,19 +3,16 @@
     height: 55vh;
     display: flex;
     flex-direction: column;
-    /* align-items: center; */
-    /* background-color: rgb(39, 38, 38); */
     background-image: linear-gradient(to bottom, rgba(138, 137, 137, 0.7), rgba(119, 90, 90, 0.7));
-    margin-left: 40%;
-    margin-top: 15%;
+    margin-left: 36%;
+    margin-top: 7%;
 }  
 
 .textWhite{
     color: white;
     font-size: 2.5rem;
-    margin-top: 3rem;
+    margin-top: 2.6rem;
     font-weight: 100;
-    margin-left: 3rem;
 }
 
 .formData{
@@ -23,7 +20,6 @@
     font-size: 12px;
     display: flex;
     flex-direction: column;
-    /* margin-top: 15px; */
     margin-left: 3rem;
     gap:0.6rem;
 }
@@ -58,8 +54,8 @@
 }
 
 .textWord{
-    color: rgb(110, 109, 109);
-    font-size: 0.8rem;
+    color:#c53e4a;
+    font-size: 1rem;
     margin-left: 3rem;
 }
 

@@ -1,7 +1,6 @@
 import "./App.css";
 import React from "react";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import MovieDataComponent from "./Component/List/Movie";
 import Headers from "./Component/Header/Headers.js";
 import Login from "./Component/Login/LoginPage.js";
 import Home from "./Component/Home.jsx";

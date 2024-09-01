@@ -2,34 +2,8 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    /* height: 68vh;
-    width: 100%; */
     overflow-x: hidden;
 }
-
-/* .heading {
-    font-size: 3rem;
-    font-weight: 700;
-    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
-    color: #f7eef1;
-    font-weight: bold;
-    margin: 4% 15%;
-    text-align: center;
-} */
-
-/* .heading4 {
-    font-size: 1.5rem;
-    color: #e7dde0;
-    margin: 2% 15%;
-    text-align: center;
-} */
-
-/* .heading5 {
-    font-size: 1rem;
-    color: #dae4e7;
-    margin: 2% 15%;
-    text-align: center;
-} */
 
 .subContainer {
     display: flex;
@@ -40,7 +14,6 @@
 .input {
     width: 23%;
     height: 3rem;
-    /* margin-left: 1%; */
     border-radius: 0.3rem;
     border-color: rgb(247, 234, 234);
     background-color: #cecbcb00;
